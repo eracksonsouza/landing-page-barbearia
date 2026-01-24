@@ -4,6 +4,7 @@ import Header from "./components/shared/Header";
 
 import { Services } from "./components/Services";
 import { Contact } from "./components/Contact";
+import WhatsAppButton from "./components/shared/WhatsAppButton";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Services />
         <Contact />
+        <WhatsAppButton />
         <Footer />
       </div>
     </>
