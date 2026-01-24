@@ -4,3 +4,8 @@
 /* Definir variáveis */
 /* Criar estilos personalizados -> eu posso contemplar pra dentro do Tailwind */
 /* Alterar estilos do Tailwind */
+
+@theme {
+    --color-yellow-primary: #D4AF37;
+}
+
