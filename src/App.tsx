@@ -1,7 +1,9 @@
-import "./App.css";
 import { Hero } from "./components/Hero";
 import Footer from "./components/shared/Footer";
 import Header from "./components/shared/Header";
+
+import { Services } from "./components/Services";
+import { Contact } from "./components/Contact";
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
 
         {/* Conteúdo principal da aplicação */}
         <Hero />
-
+        <Services />
+        <Contact />
         <Footer />
       </div>
     </>

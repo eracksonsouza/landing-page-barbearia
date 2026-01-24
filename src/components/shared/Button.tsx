@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes } from "react";
+import type { ButtonHTMLAttributes } from "react";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary";
@@ -12,7 +12,7 @@ export function Button({
   ...props
 }: ButtonProps) {
   const baseStyles =
-    "rounded-md px-4 py-2 transition-all duration-300 font-medium";
+    "rounded-md px-4 py-2 transition-all duration-300 font-medium cursor-pointer";
 
   const variantStyles = {
     primary:
